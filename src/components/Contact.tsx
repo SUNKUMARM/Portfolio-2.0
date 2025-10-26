@@ -21,7 +21,7 @@ export const Contact = () => {
           transition={{ duration: 0.8 }}
           className="text-center"
         >
-          <h2 className="text-4xl sm:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
+          <h2 className="text-4xl sm:text-5xl pb-2 pb-2 font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
             Get In Touch!
           </h2>
           <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">

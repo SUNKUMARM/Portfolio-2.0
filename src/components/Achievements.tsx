@@ -48,7 +48,7 @@ export const Achievements = () => {
           <div className="inline-flex items-center gap-2 mb-6">
             <Award className="text-primary" size={32} />
           </div>
-          <h2 className="text-4xl sm:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
+          <h2 className="text-4xl sm:text-5xl pb-2 font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
             Key Achievements
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">

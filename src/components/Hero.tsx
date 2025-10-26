@@ -97,7 +97,7 @@ export const Hero = () => {
                 size="lg"
                 variant="outline"
                 className="border-primary/50 hover:border-primary text-lg px-8 py-6"
-                onClick={() => window.open("/SUNKUMAR-M-Resume.pdf", "_blank")}
+                onClick={() => window.open("Sunkumar-Resume.pdf", "_blank")}
               >
                 <Download className="mr-2" size={20} />
                 Download Resume

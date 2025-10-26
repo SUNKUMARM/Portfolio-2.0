@@ -10,8 +10,8 @@ const projects = [
     title: "CrescoWorks ATS Platform",
     category: "Professional Work | Jan 2023 - Present",
     problem: "Recruitment teams needed an automated system to manage applicants across multiple stages with role-based access, customizable workflows, and high-performance UI components for enterprise-scale operations.",
-    solution: "Developed and maintained core modules for the ATS platform, integrating REST APIs for real-time applicant tracking, recruiter workflows, and admin dashboards. Designed 16 reusable table-view and 9 tile-view Angular components with Lazy Loading. Built enterprise-level multi-step application forms using Angular Reactive Forms with strong validation and error handling. Implemented Role-Based Access Control (RBAC) for secure, role-specific access. Modernized Global CSS Architecture by refactoring 7,100+ lines of SCSS with CSS Custom Properties.",
-    impact: "Improved runtime performance by 20% and enabled code reuse across 25+ UI screens. Reduced stylesheet size by 60% and cut build time by 27 seconds. Collaborated with backend and QA teams to optimize bundle size and reduce API latency, improving UI performance by 15%. This CSS refactoring contribution was publicly appreciated by the Product Manager & CEO and rewarded with company gift cards.",
+    solution: "Developed and maintained core modules for the ATS platform, integrating REST APIs for real-time applicant tracking, recruiter workflows, and admin dashboards. Designed 16 reusable table-view and 9 tile-view Angular components with Lazy Loading. Built enterprise-level multi-step application forms using Angular Reactive Forms with strong validation and error handling. Implemented Role-Based Access Control (RBAC) for secure, role-specific access.",
+    impact: "Improved runtime performance by 20% and enabled code reuse across 25+ UI screens. Reduced stylesheet size by 60% and cut build time by 27 seconds. Collaborated with backend and QA teams to optimize bundle size and reduce API latency, improving UI performance by 15%.",
     tech: ["Angular", "TypeScript", "Angular Material", "REST API", "SCSS", "CSS Custom Properties", "Lazy Loading", "Reactive Forms", "RBAC"],
     gradient: "from-blue-600 to-indigo-600",
     icon: Briefcase,
@@ -23,7 +23,7 @@ const projects = [
     title: "Career Portal",
     category: "Professional Work | Jan 2023 - Present",
     problem: "Job seekers and recruiters needed a unified platform to efficiently search jobs, apply for positions, post openings, and track candidates throughout the hiring process with optimal performance and search visibility.",
-    solution: "Developed a Career Portal enabling job seekers to search and apply for jobs, and recruiters to post openings, manage applications, and track candidates. Integrated responsive UI with Angular and Material Design for seamless mobile and desktop experience. Leveraged the reusable component library (16 table-view and 9 tile-view components) built for the ATS platform.",
+    solution: "Developed a Career Portal enabling job seekers to search and apply for jobs, and recruiters to post openings, manage applications, and track candidates. Integrated responsive UI with Angular and Material Design for seamless mobile and desktop experience.",
     impact: "Implemented SEO enhancements (meta tags, optimized page titles, and descriptions), resulting in a 10% increase in organic visibility and search ranking. Improved application performance using lazy loading and pagination, ensuring a smooth and faster user experience. Worked in an Agile Scrum environment with continuous feature delivery for production deployments.",
     tech: ["Angular", "TypeScript", "Angular Material", "SEO", "Lazy Loading", "Pagination", "Agile Scrum"],
     gradient: "from-indigo-600 to-purple-600",
@@ -36,7 +36,7 @@ const projects = [
     title: "To-Do Task Management App",
     category: "Personal Project (UI Based)",
     problem: "Teams needed a comprehensive task manager to assign, track, and manage daily tasks with multiple views and status tracking.",
-    solution: "Built a task manager similar to Microsoft To-Do with CRUD operations, filters, and status updates (Pending, In Progress, Completed). Implemented both table and Kanban views with a responsive UI using Angular Material and SCSS.",
+    solution: "Built a Task Management System with full CRUD features, improving daily task tracking efficiency by 40% using Angular and Reactive Forms.– Implemented Table and Kanban views to organize tasks by status (Pending, In Progress, Completed), resulting in 30% faster task status recognition and improved workflow clarity.Implemented both table and Kanban views with a responsive UI using Angular Material and SCSS.",
     impact: "Created an intuitive task management solution with dual view modes, enabling teams to visualize and manage tasks efficiently.",
     tech: ["Angular", "TypeScript", "HTML", "SCSS", "Angular Material"],
     gradient: "from-purple-600 to-pink-600",
@@ -128,7 +128,7 @@ export const Projects = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-20"
         >
-          <h2 className="text-4xl sm:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
+          <h2 className="text-4xl sm:text-5xl pb-2 font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
             Projects & Experience
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">

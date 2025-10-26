@@ -39,7 +39,7 @@ export const About = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl sm:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
+          <h2 className="text-4xl sm:text-5xl pb-2 font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
             About Me
           </h2>
           <div className="space-y-6 text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
